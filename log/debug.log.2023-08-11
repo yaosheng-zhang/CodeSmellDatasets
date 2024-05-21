@@ -1,0 +1,3 @@
+2023-08-11 17:39:29  [ main:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    msg[i] &= ~(((1ULL << size) - 1) << shift);
+

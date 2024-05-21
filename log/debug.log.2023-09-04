@@ -1,0 +1,963 @@
+2023-09-04 23:24:29  [ pool-1-thread-3:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:24:29  [ pool-1-thread-8:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:24:29  [ pool-1-thread-6:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:24:29  [ pool-1-thread-7:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:24:29  [ pool-1-thread-9:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:24:29  [ pool-1-thread-1:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:24:29  [ pool-1-thread-2:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:24:29  [ pool-1-thread-5:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:24:29  [ pool-1-thread-10:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:24:29  [ pool-1-thread-4:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:24:33  [ pool-1-thread-3:3606 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:24:33  [ pool-1-thread-1:3606 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:24:33  [ pool-1-thread-8:3616 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:24:33  [ pool-1-thread-3:3629 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:24:33  [ pool-1-thread-8:3629 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:24:33  [ pool-1-thread-1:3631 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:24:33  [ pool-1-thread-9:4044 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:24:33  [ pool-1-thread-9:4045 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:24:33  [ pool-1-thread-7:4073 ] - [ DEBUG ]  extern uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+2023-09-04 23:24:33  [ pool-1-thread-7:4074 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:24:34  [ pool-1-thread-4:4433 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:24:34  [ pool-1-thread-4:4434 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:24:34  [ pool-1-thread-2:4603 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:24:34  [ pool-1-thread-2:4603 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:24:34  [ pool-1-thread-6:4623 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:24:34  [ pool-1-thread-6:4624 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:24:35  [ pool-1-thread-5:5670 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:24:35  [ pool-1-thread-5:5671 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+
+2023-09-04 23:24:35  [ pool-1-thread-8:6153 ] - [ DEBUG ]  std::regex bo_regexp("^BO_ (\\w+) (\\w+) *: (\\w+) (\\w+)");
+2023-09-04 23:24:35  [ pool-1-thread-8:6154 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i-1 : i+1;
+
+2023-09-04 23:24:35  [ pool-1-thread-7:6253 ] - [ DEBUG ]  i = sig.is_little_endian ? (i+1) : (i-1);
+2023-09-04 23:24:35  [ pool-1-thread-7:6253 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      if (sig.calc_checksum != nullptr && sig.calc_checksum(address, sig, dat) != tmp) {
+        checksum_failed = true;
+      }
+
+2023-09-04 23:24:36  [ pool-1-thread-9:6304 ] - [ DEBUG ]  int shift = ((int)(sig.lsb / 8) == i) ? (sig.lsb % 8) : 0;
+2023-09-04 23:24:36  [ pool-1-thread-9:6305 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    vals[i] = tmp * sig.factor + sig.offset;
+
+2023-09-04 23:24:37  [ pool-1-thread-9:8273 ] - [ DEBUG ]  vals[i] = (tmp * sig.factor) + sig.offset;
+2023-09-04 23:24:37  [ pool-1-thread-9:8274 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：        if (sig.name == sigop.name && sig.type == SignalType::DEFAULT) {
+          state.parse_sigs.push_back(sig);
+          state.vals.push_back(0);
+          state.all_vals.push_back({});
+          break;
+        }
+
+2023-09-04 23:24:38  [ pool-1-thread-10:8435 ] - [ DEBUG ]  std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+2023-09-04 23:24:38  [ pool-1-thread-10:8437 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    if (state.check_threshold > 0 && (missing || timed_out)) {
+      if (show_missing && !bus_timeout) {
+        if (missing) {
+          LOGE("0x%X '%s' NOT SEEN", state.address, state.name.c_str());
+        } else if (timed_out) {
+          LOGE("0x%X '%s' TIMED OUT", state.address, state.name.c_str());
+        }
+      }
+      _valid = false;
+    }
+
+2023-09-04 23:24:38  [ pool-1-thread-8:8589 ] - [ DEBUG ]  i = sig.is_little_endian ? (i-1) : (i+1);
+2023-09-04 23:24:38  [ pool-1-thread-8:8590 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    if (last_ts != 0 && state.last_seen_nanos < last_ts) {
+      continue;
+    }
+
+2023-09-04 23:24:38  [ pool-1-thread-4:8771 ] - [ DEBUG ]  if ((!counter_set) && (sig_it_counter != signal_lookup.end())) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+        counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = ((counters[address] + 1) % (1 << sig.size));
+}
+2023-09-04 23:24:38  [ pool-1-thread-4:8772 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->checksum_size == -1 || s.size == chk->checksum_size, "CHECKSUM is not " << chk->checksum_size << " bits long");
+2023-09-04 23:24:38  [ pool-1-thread-3:8979 ] - [ DEBUG ]  std::regex sg_regexp;
+
+void initialize_sg_regexp() {
+    sg_regexp = std::regex(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+}
+2023-09-04 23:24:38  [ pool-1-thread-3:8979 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->checksum_start_bit == -1 || (s.start_bit % 8) == chk->checksum_start_bit, " CHECKSUM starts at wrong bit");
+2023-09-04 23:24:38  [ pool-1-thread-6:8992 ] - [ DEBUG ]  int lsb = ((int)(sig.lsb / 8) == i) ? sig.lsb : (i * 8);
+2023-09-04 23:24:38  [ pool-1-thread-6:8992 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->counter_size == -1 || s.size == chk->counter_size, "COUNTER is not " << chk->counter_size << " bits long");
+2023-09-04 23:24:38  [ pool-1-thread-7:8994 ] - [ DEBUG ]  if ((sig.calc_checksum != nullptr) && (sig.calc_checksum(address, sig, dat) != tmp)) {
+        checksum_failed = true;
+      }
+2023-09-04 23:24:38  [ pool-1-thread-7:8994 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->counter_start_bit == -1 || (s.start_bit % 8) == chk->counter_start_bit, "COUNTER starts at wrong bit");
+2023-09-04 23:24:38  [ pool-1-thread-5:9165 ] - [ DEBUG ]  int msb = ((int)(sig.msb / 8) == i) ? sig.msb : ((i+1)*8 - 1);
+2023-09-04 23:24:38  [ pool-1-thread-5:9167 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      be_bits.push_back(j + i * 8);
+2023-09-04 23:24:39  [ pool-1-thread-1:9463 ] - [ DEBUG ]  while ((i >= 0) && (i < msg.size()) && (bits > 0)) {
+    int shift = ((int)(sig.lsb / 8) == i) ? (sig.lsb % 8) : 0;
+    int size = std::min(bits, (8 - shift));
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= ((ival & ((1ULL << size) - 1)) << shift);
+
+    bits -= size;
+    ival >>= size;
+    i = (sig.is_little_endian) ? (i+1) : (i-1);
+}
+2023-09-04 23:24:39  [ pool-1-thread-1:9464 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(sig.lsb < (64 * 8) && sig.msb < (64 * 8), "Signal out of bounds: " << line);
+2023-09-04 23:24:40  [ pool-1-thread-8:11149 ] - [ DEBUG ]  if ((last_ts != 0) && (state.last_seen_nanos < last_ts)) {
+      continue;
+    }
+2023-09-04 23:24:40  [ pool-1-thread-8:11150 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      if (sigop.address != op.address) continue;
+
+2023-09-04 23:24:41  [ pool-1-thread-4:11559 ] - [ DEBUG ]  DBC_ASSERT((chk->checksum_size == -1) || (s.size == chk->checksum_size), "CHECKSUM is not " << chk->checksum_size << " bits long");
+2023-09-04 23:24:41  [ pool-1-thread-4:11560 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (dat.size() > 64) return; // shouldn't ever happen
+
+2023-09-04 23:24:41  [ pool-1-thread-2:11653 ] - [ DEBUG ]  while ((i >= 0) && (i < msg.size()) && (bits > 0)) {
+    int lsb = ((int)(sig.lsb / 8) == i) ? sig.lsb : (i*8);
+    int msb = ((int)(sig.msb / 8) == i) ? sig.msb : ((i+1)*8 - 1);
+    int size = (msb - lsb + 1);
+
+    uint64_t d = ((msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1));
+    ret |= (d << (bits - size));
+
+    bits -= size;
+    i = (sig.is_little_endian ? (i-1) : (i+1));
+}
+2023-09-04 23:24:41  [ pool-1-thread-2:11654 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：    if (i == d.size()-1) x >>= 4; // remove checksum
+
+2023-09-04 23:24:41  [ pool-1-thread-3:11822 ] - [ DEBUG ]  DBC_ASSERT((chk->checksum_start_bit == -1) || ((s.start_bit % 8) == chk->checksum_start_bit), "CHECKSUM starts at wrong bit");
+2023-09-04 23:24:41  [ pool-1-thread-7:11822 ] - [ DEBUG ]  DBC_ASSERT((chk->counter_start_bit == -1) || ((s.start_bit % 8) == chk->counter_start_bit), "COUNTER starts at wrong bit");
+2023-09-04 23:24:41  [ pool-1-thread-3:11822 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (extended) s += 3;  // extended can
+
+2023-09-04 23:24:41  [ pool-1-thread-7:11822 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      if ((crc & 0x80) != 0)
+        crc = (uint8_t)((crc << 1) ^ poly);
+      else
+        crc <<= 1;
+
+2023-09-04 23:24:41  [ pool-1-thread-6:11980 ] - [ DEBUG ]  DBC_ASSERT((chk->counter_size == -1) || (s.size == chk->counter_size), "COUNTER is not " << chk->counter_size << " bits long");
+2023-09-04 23:24:41  [ pool-1-thread-6:11980 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      else
+2023-09-04 23:24:42  [ pool-1-thread-9:12373 ] - [ DEBUG ]  if ((sig.name == sigop.name) && (sig.type == SignalType::DEFAULT)) {
+          state.parse_sigs.push_back(sig);
+          state.vals.push_back(0);
+          state.all_vals.push_back({});
+          break;
+        }
+2023-09-04 23:24:42  [ pool-1-thread-9:12373 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：    if (startswith(str, prefix)) return true;
+2023-09-04 23:24:42  [ pool-1-thread-1:12521 ] - [ DEBUG ]  DBC_ASSERT((sig.lsb < (64 * 8)) && (sig.msb < (64 * 8)), "Signal out of bounds: " << line);
+2023-09-04 23:24:42  [ pool-1-thread-1:12522 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (!infile) return nullptr;
+2023-09-04 23:24:42  [ pool-1-thread-5:12681 ] - [ DEBUG ]  be_bits.push_back(j + (i * 8));
+2023-09-04 23:24:42  [ pool-1-thread-5:12682 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:24:42  [ pool-1-thread-10:13166 ] - [ DEBUG ]  if (state.check_threshold > 0 && (missing || timed_out)) {
+      if (show_missing && !bus_timeout) {
+        if (missing) {
+          LOGE("0x%X '%s' NOT SEEN", state.address, state.name.c_str());
+        } else if (timed_out) {
+          LOGE("0x%X '%s' TIMED OUT", state.address, state.name.c_str());
+        }
+      }
+      _valid = false;
+    }
+2023-09-04 23:24:42  [ pool-1-thread-10:13166 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：        }
+2023-09-04 23:24:42  [ pool-1-thread-8:13291 ] - [ DEBUG ]  if (sigop.address != op.address) {
+    continue;
+}
+2023-09-04 23:24:42  [ pool-1-thread-8:13292 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:24:43  [ pool-1-thread-6:13715 ] - [ DEBUG ]  else {
+    // code here
+}
+2023-09-04 23:24:43  [ pool-1-thread-6:13716 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:24:43  [ pool-1-thread-3:13831 ] - [ DEBUG ]  if (extended) {
+    s += 3;
+}
+2023-09-04 23:24:43  [ pool-1-thread-3:13832 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：    }
+2023-09-04 23:24:44  [ pool-1-thread-9:14441 ] - [ DEBUG ]  if (startswith(str, prefix)) {
+    return true;
+}
+2023-09-04 23:24:44  [ pool-1-thread-9:14441 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:24:44  [ pool-1-thread-4:14620 ] - [ DEBUG ]  if (dat.size() > 64) {
+    return;
+} // shouldn't ever happen
+2023-09-04 23:24:44  [ pool-1-thread-4:14621 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：    }
+2023-09-04 23:24:44  [ pool-1-thread-2:14744 ] - [ DEBUG ]  if (i == d.size()-1) {
+    x >>= 4; // remove checksum
+}
+2023-09-04 23:24:44  [ pool-1-thread-2:14745 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    msg[i] &= ~(((1ULL << size) - 1) << shift);
+
+2023-09-04 23:24:44  [ pool-1-thread-8:14933 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:44  [ pool-1-thread-8:14933 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+2023-09-04 23:24:44  [ pool-1-thread-7:14972 ] - [ DEBUG ]  if ((crc & 0x80) != 0) {
+    crc = (uint8_t)((crc << 1) ^ poly);
+} else {
+    crc <<= 1;
+}
+2023-09-04 23:24:44  [ pool-1-thread-7:14973 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+
+2023-09-04 23:24:44  [ pool-1-thread-5:15063 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:44  [ pool-1-thread-5:15066 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    ret |= d << (bits - size);
+
+2023-09-04 23:24:45  [ pool-1-thread-3:15406 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:45  [ pool-1-thread-3:15407 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    crc = i << 8;
+
+2023-09-04 23:24:45  [ pool-1-thread-6:15461 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:45  [ pool-1-thread-6:15461 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.7: If a composite expression is used as one operand of an operator in which the usual arithmetic conversions are performed then the other operand.
+The Code snippets：    ret |= d << (bits - size);
+
+2023-09-04 23:24:45  [ pool-1-thread-1:15557 ] - [ DEBUG ]  if (!infile) {
+    return nullptr;
+}
+2023-09-04 23:24:45  [ pool-1-thread-1:15557 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.7: If a composite expression is used as one operand of an operator in which the usual arithmetic conversions are performed then the other operand.
+The Code snippets：    s += (x & 0xF) + (x >> 4);
+
+2023-09-04 23:24:45  [ pool-1-thread-10:15810 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:45  [ pool-1-thread-10:15810 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 13.4: The result of an assignment operator should not be used.
+The Code snippets：      address = msg.address = std::stoul(match[1].str());  // could be hex
+2023-09-04 23:24:46  [ pool-1-thread-6:17193 ] - [ DEBUG ]  ret |= (d << (bits - size));
+2023-09-04 23:24:46  [ pool-1-thread-2:17216 ] - [ DEBUG ]  msg[i] &= ~(static_cast<uint64_t>((1ULL << size) - 1) << shift);
+2023-09-04 23:24:46  [ pool-1-thread-9:17261 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:47  [ pool-1-thread-4:17394 ] - [ DEBUG ]  } else {
+    // code here
+}
+2023-09-04 23:24:47  [ pool-1-thread-1:17409 ] - [ DEBUG ]  s += (x & 0xF) + (x >> 4);
+2023-09-04 23:24:47  [ pool-1-thread-3:17528 ] - [ DEBUG ]  crc = (uint16_t)i << 8;
+2023-09-04 23:24:47  [ pool-1-thread-7:17951 ] - [ DEBUG ]  uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+2023-09-04 23:24:47  [ pool-1-thread-5:18275 ] - [ DEBUG ]  ret |= static_cast<uint32_t>(d) << (bits - static_cast<uint32_t>(size));
+2023-09-04 23:24:49  [ pool-1-thread-10:19318 ] - [ DEBUG ]  address = std::stoul(match[1].str());  // could be hex
+msg.address = address;
+2023-09-04 23:24:50  [ pool-1-thread-8:20311 ] - [ DEBUG ]  msg[i] |= static_cast<uint64_t>(ival & ((1ULL << size) - 1)) << shift;
+2023-09-04 23:33:04  [ pool-1-thread-5:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:33:04  [ pool-1-thread-1:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:33:04  [ pool-1-thread-6:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:33:04  [ pool-1-thread-8:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:33:04  [ pool-1-thread-9:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:33:04  [ pool-1-thread-2:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:33:04  [ pool-1-thread-3:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:33:04  [ pool-1-thread-7:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:33:04  [ pool-1-thread-4:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:33:04  [ pool-1-thread-10:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:33:07  [ pool-1-thread-8:2996 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:33:07  [ pool-1-thread-8:3012 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:33:08  [ pool-1-thread-3:3251 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:33:08  [ pool-1-thread-3:3252 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:33:08  [ pool-1-thread-5:3258 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:33:08  [ pool-1-thread-5:3258 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:33:08  [ pool-1-thread-2:3303 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:33:08  [ pool-1-thread-2:3304 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:33:08  [ pool-1-thread-9:3569 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:33:08  [ pool-1-thread-9:3570 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:33:08  [ pool-1-thread-4:3695 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:33:08  [ pool-1-thread-4:3696 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:33:08  [ pool-1-thread-1:3711 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:33:08  [ pool-1-thread-1:3714 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:33:09  [ pool-1-thread-7:4783 ] - [ DEBUG ]  extern uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+2023-09-04 23:33:09  [ pool-1-thread-7:4784 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:33:10  [ pool-1-thread-2:5429 ] - [ DEBUG ]  int shift = ((int)(sig.lsb / 8) == i) ? (sig.lsb % 8) : 0;
+2023-09-04 23:33:10  [ pool-1-thread-2:5430 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+
+2023-09-04 23:33:10  [ pool-1-thread-9:5670 ] - [ DEBUG ]  i = sig.is_little_endian ? (i+1) : (i-1);
+2023-09-04 23:33:10  [ pool-1-thread-9:5671 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i-1 : i+1;
+
+2023-09-04 23:33:10  [ pool-1-thread-3:5745 ] - [ DEBUG ]  std::regex bo_regexp("^BO_ (\\w+) (\\w+) *: (\\w+) (\\w+)");
+2023-09-04 23:33:10  [ pool-1-thread-3:5746 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      if (sig.calc_checksum != nullptr && sig.calc_checksum(address, sig, dat) != tmp) {
+        checksum_failed = true;
+      }
+
+2023-09-04 23:33:11  [ pool-1-thread-10:6401 ] - [ DEBUG ]  std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+2023-09-04 23:33:11  [ pool-1-thread-10:6402 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    vals[i] = tmp * sig.factor + sig.offset;
+
+2023-09-04 23:33:12  [ pool-1-thread-9:7933 ] - [ DEBUG ]  i = sig.is_little_endian ? (i-1) : (i+1);
+2023-09-04 23:33:12  [ pool-1-thread-9:7935 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：        if (sig.name == sigop.name && sig.type == SignalType::DEFAULT) {
+          state.parse_sigs.push_back(sig);
+          state.vals.push_back(0);
+          state.all_vals.push_back({});
+          break;
+        }
+
+2023-09-04 23:33:13  [ pool-1-thread-7:8118 ] - [ DEBUG ]  int lsb = ((int)(sig.lsb / 8) == i) ? sig.lsb : (i * 8);
+2023-09-04 23:33:13  [ pool-1-thread-7:8119 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    if (state.check_threshold > 0 && (missing || timed_out)) {
+      if (show_missing && !bus_timeout) {
+        if (missing) {
+          LOGE("0x%X '%s' NOT SEEN", state.address, state.name.c_str());
+        } else if (timed_out) {
+          LOGE("0x%X '%s' TIMED OUT", state.address, state.name.c_str());
+        }
+      }
+      _valid = false;
+    }
+
+2023-09-04 23:33:13  [ pool-1-thread-2:8179 ] - [ DEBUG ]  int msb = ((int)(sig.msb / 8) == i) ? sig.msb : ((i+1)*8 - 1);
+2023-09-04 23:33:13  [ pool-1-thread-2:8180 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    if (last_ts != 0 && state.last_seen_nanos < last_ts) {
+      continue;
+    }
+
+2023-09-04 23:33:13  [ pool-1-thread-10:8324 ] - [ DEBUG ]  vals[i] = (tmp * sig.factor) + sig.offset;
+2023-09-04 23:33:13  [ pool-1-thread-10:8325 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->checksum_size == -1 || s.size == chk->checksum_size, "CHECKSUM is not " << chk->checksum_size << " bits long");
+2023-09-04 23:33:13  [ pool-1-thread-6:8414 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:33:13  [ pool-1-thread-6:8415 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->checksum_start_bit == -1 || (s.start_bit % 8) == chk->checksum_start_bit, " CHECKSUM starts at wrong bit");
+2023-09-04 23:33:13  [ pool-1-thread-8:8490 ] - [ DEBUG ]  std::regex sg_regexp;
+
+void initialize_sg_regexp() {
+    sg_regexp = std::regex(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+}
+2023-09-04 23:33:13  [ pool-1-thread-8:8490 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->counter_size == -1 || s.size == chk->counter_size, "COUNTER is not " << chk->counter_size << " bits long");
+2023-09-04 23:33:14  [ pool-1-thread-4:9214 ] - [ DEBUG ]  if ((!counter_set) && (sig_it_counter != signal_lookup.end())) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+        counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = ((counters[address] + 1) % (1 << sig.size));
+}
+2023-09-04 23:33:14  [ pool-1-thread-4:9214 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(chk->counter_start_bit == -1 || (s.start_bit % 8) == chk->counter_start_bit, "COUNTER starts at wrong bit");
+2023-09-04 23:33:14  [ pool-1-thread-3:9449 ] - [ DEBUG ]  if ((sig.calc_checksum != nullptr) && (sig.calc_checksum(address, sig, dat) != tmp)) {
+        checksum_failed = true;
+      }
+2023-09-04 23:33:14  [ pool-1-thread-3:9451 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      be_bits.push_back(j + i * 8);
+2023-09-04 23:33:14  [ pool-1-thread-5:9857 ] - [ DEBUG ]  while ((i >= 0) && (i < msg.size()) && (bits > 0)) {
+    int shift = ((int)(sig.lsb / 8) == i) ? (sig.lsb % 8) : 0;
+    int size = std::min(bits, (8 - shift));
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= ((ival & ((1ULL << size) - 1)) << shift);
+
+    bits -= size;
+    ival >>= size;
+    i = (sig.is_little_endian) ? (i+1) : (i-1);
+}
+2023-09-04 23:33:14  [ pool-1-thread-5:9858 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      DBC_ASSERT(sig.lsb < (64 * 8) && sig.msb < (64 * 8), "Signal out of bounds: " << line);
+2023-09-04 23:33:15  [ pool-1-thread-1:10628 ] - [ DEBUG ]  while ((i >= 0) && (i < msg.size()) && (bits > 0)) {
+    int lsb = ((int)(sig.lsb / 8) == i) ? sig.lsb : (i*8);
+    int msb = ((int)(sig.msb / 8) == i) ? sig.msb : ((i+1)*8 - 1);
+    int size = (msb - lsb) + 1;
+
+    uint64_t d = ((msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1));
+    ret |= (d << (bits - size));
+
+    bits -= size;
+    i = (sig.is_little_endian) ? (i-1) : (i+1);
+}
+2023-09-04 23:33:15  [ pool-1-thread-1:10628 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      if (sigop.address != op.address) continue;
+
+2023-09-04 23:33:15  [ pool-1-thread-10:10929 ] - [ DEBUG ]  DBC_ASSERT((chk->checksum_size == -1) || (s.size == chk->checksum_size), "CHECKSUM is not " << chk->checksum_size << " bits long");
+2023-09-04 23:33:15  [ pool-1-thread-10:10929 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (dat.size() > 64) return; // shouldn't ever happen
+
+2023-09-04 23:33:16  [ pool-1-thread-6:11156 ] - [ DEBUG ]  DBC_ASSERT((chk->checksum_start_bit == -1) || ((s.start_bit % 8) == chk->checksum_start_bit), "CHECKSUM starts at wrong bit");
+2023-09-04 23:33:16  [ pool-1-thread-6:11157 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：    if (i == d.size()-1) x >>= 4; // remove checksum
+
+2023-09-04 23:33:16  [ pool-1-thread-3:11172 ] - [ DEBUG ]  be_bits.push_back(j + (i * 8));
+2023-09-04 23:33:16  [ pool-1-thread-8:11172 ] - [ DEBUG ]  DBC_ASSERT((chk->counter_size == -1) || (s.size == chk->counter_size), "COUNTER is not " << chk->counter_size << " bits long");
+2023-09-04 23:33:16  [ pool-1-thread-3:11173 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (extended) s += 3;  // extended can
+
+2023-09-04 23:33:16  [ pool-1-thread-8:11173 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      if ((crc & 0x80) != 0)
+        crc = (uint8_t)((crc << 1) ^ poly);
+      else
+        crc <<= 1;
+
+2023-09-04 23:33:16  [ pool-1-thread-2:11302 ] - [ DEBUG ]  if ((last_ts != 0) && (state.last_seen_nanos < last_ts)) {
+      continue;
+    }
+2023-09-04 23:33:16  [ pool-1-thread-2:11302 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：      else
+2023-09-04 23:33:16  [ pool-1-thread-4:11832 ] - [ DEBUG ]  DBC_ASSERT((chk->counter_start_bit == -1) || ((s.start_bit % 8) == chk->counter_start_bit), "COUNTER starts at wrong bit");
+2023-09-04 23:33:16  [ pool-1-thread-4:11833 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：    if (startswith(str, prefix)) return true;
+2023-09-04 23:33:17  [ pool-1-thread-5:12436 ] - [ DEBUG ]  DBC_ASSERT((sig.lsb < (64 * 8)) && (sig.msb < (64 * 8)), "Signal out of bounds: " << line);
+2023-09-04 23:33:17  [ pool-1-thread-5:12437 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.6: The body of an iteration-statement or a selection-statement shall be a compound statement.
+The Code snippets：  if (!infile) return nullptr;
+2023-09-04 23:33:17  [ pool-1-thread-1:12478 ] - [ DEBUG ]  if (sigop.address != op.address) {
+    continue;
+}
+2023-09-04 23:33:17  [ pool-1-thread-1:12479 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:33:17  [ pool-1-thread-9:12550 ] - [ DEBUG ]  if ((sig.name == sigop.name) && (sig.type == SignalType::DEFAULT)) {
+          state.parse_sigs.push_back(sig);
+          state.vals.push_back(0);
+          state.all_vals.push_back({});
+          break;
+        }
+2023-09-04 23:33:17  [ pool-1-thread-9:12551 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：        }
+2023-09-04 23:33:17  [ pool-1-thread-7:12802 ] - [ DEBUG ]  if (state.check_threshold > 0 && (missing || timed_out)) {
+      if (show_missing && !bus_timeout) {
+        if (missing) {
+          LOGE("0x%X '%s' NOT SEEN", state.address, state.name.c_str());
+        } else if (timed_out) {
+          LOGE("0x%X '%s' TIMED OUT", state.address, state.name.c_str());
+        }
+      }
+      _valid = false;
+    }
+2023-09-04 23:33:17  [ pool-1-thread-7:12802 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:33:17  [ pool-1-thread-3:12973 ] - [ DEBUG ]  if (extended) {
+    s += 3;
+}
+2023-09-04 23:33:17  [ pool-1-thread-3:12973 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:33:18  [ pool-1-thread-2:13171 ] - [ DEBUG ]  else {
+    // code here
+}
+2023-09-04 23:33:18  [ pool-1-thread-2:13172 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：    }
+2023-09-04 23:33:18  [ pool-1-thread-10:13283 ] - [ DEBUG ]  if (dat.size() > 64) {
+    return;
+} // shouldn't ever happen
+2023-09-04 23:33:18  [ pool-1-thread-10:13284 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：  }
+2023-09-04 23:33:18  [ pool-1-thread-6:13427 ] - [ DEBUG ]  if (i == d.size()-1) {
+    x >>= 4; // remove checksum
+}
+2023-09-04 23:33:18  [ pool-1-thread-6:13427 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 15.7: All if else if constructs shall be terminated with an else statement.
+The Code snippets：    }
+2023-09-04 23:33:18  [ pool-1-thread-4:13940 ] - [ DEBUG ]  if (startswith(str, prefix)) {
+    return true;
+}
+2023-09-04 23:33:18  [ pool-1-thread-4:13941 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 10.1: Operands shall not be of an inappropriate essential type.
+The Code snippets：    msg[i] &= ~(((1ULL << size) - 1) << shift);
+
+2023-09-04 23:36:19  [ pool-1-thread-6:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:36:19  [ pool-1-thread-10:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:36:19  [ pool-1-thread-9:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:36:19  [ pool-1-thread-1:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:36:19  [ pool-1-thread-5:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:36:19  [ pool-1-thread-8:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:36:19  [ pool-1-thread-7:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:36:19  [ pool-1-thread-3:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:36:19  [ pool-1-thread-2:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:36:19  [ pool-1-thread-4:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:36:21  [ pool-1-thread-8:2872 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:36:21  [ pool-1-thread-8:2888 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:36:22  [ pool-1-thread-3:3366 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:36:22  [ pool-1-thread-3:3367 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:36:22  [ pool-1-thread-1:3492 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:36:22  [ pool-1-thread-1:3494 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:36:22  [ pool-1-thread-6:3739 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:36:22  [ pool-1-thread-6:3740 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:36:23  [ pool-1-thread-9:4013 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:36:23  [ pool-1-thread-9:4014 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:36:23  [ pool-1-thread-4:4044 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:36:23  [ pool-1-thread-4:4045 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:36:23  [ pool-1-thread-7:4474 ] - [ DEBUG ]  extern uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+2023-09-04 23:36:23  [ pool-1-thread-7:4474 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:36:23  [ pool-1-thread-5:4515 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:36:23  [ pool-1-thread-5:4516 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:43:04  [ pool-1-thread-2:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:43:04  [ pool-1-thread-1:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:43:04  [ pool-1-thread-7:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:43:04  [ pool-1-thread-8:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:43:04  [ pool-1-thread-10:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:43:04  [ pool-1-thread-5:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:43:04  [ pool-1-thread-4:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:43:04  [ pool-1-thread-9:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:43:04  [ pool-1-thread-6:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:43:04  [ pool-1-thread-3:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:43:08  [ pool-1-thread-1:3590 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:43:08  [ pool-1-thread-1:3606 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:43:08  [ pool-1-thread-8:3751 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:43:08  [ pool-1-thread-8:3752 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:43:08  [ pool-1-thread-4:4141 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:43:08  [ pool-1-thread-4:4141 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:43:08  [ pool-1-thread-5:4162 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:43:08  [ pool-1-thread-5:4163 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:43:08  [ pool-1-thread-6:4175 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:43:08  [ pool-1-thread-6:4175 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:43:09  [ pool-1-thread-3:4496 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:43:09  [ pool-1-thread-3:4497 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:43:09  [ pool-1-thread-9:4627 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:43:09  [ pool-1-thread-9:4627 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:43:09  [ pool-1-thread-2:5227 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:43:09  [ pool-1-thread-2:5228 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:43:10  [ pool-1-thread-8:6095 ] - [ DEBUG ]  std::regex bo_regexp("^BO_ (\\w+) (\\w+) *: (\\w+) (\\w+)");
+2023-09-04 23:43:10  [ pool-1-thread-8:6096 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+
+2023-09-04 23:52:30  [ pool-1-thread-4:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:52:30  [ pool-1-thread-3:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:52:30  [ pool-1-thread-8:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:52:30  [ pool-1-thread-10:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:52:30  [ pool-1-thread-6:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:52:30  [ pool-1-thread-2:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:52:30  [ pool-1-thread-5:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:52:30  [ pool-1-thread-9:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:52:30  [ pool-1-thread-7:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:52:30  [ pool-1-thread-1:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:52:34  [ pool-1-thread-7:3474 ] - [ DEBUG ]  extern uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+2023-09-04 23:52:34  [ pool-1-thread-7:3489 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:52:34  [ pool-1-thread-2:3695 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:52:34  [ pool-1-thread-2:3696 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:52:34  [ pool-1-thread-1:3891 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:52:34  [ pool-1-thread-1:3894 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:52:34  [ pool-1-thread-4:3959 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:52:34  [ pool-1-thread-4:3960 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:52:34  [ pool-1-thread-8:4044 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:52:34  [ pool-1-thread-8:4045 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:52:35  [ pool-1-thread-9:4583 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:52:35  [ pool-1-thread-9:4583 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:52:35  [ pool-1-thread-3:4749 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:52:35  [ pool-1-thread-3:4750 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:52:35  [ pool-1-thread-5:4774 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:52:35  [ pool-1-thread-5:4775 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:52:35  [ pool-1-thread-6:4961 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:52:35  [ pool-1-thread-6:4962 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+
+2023-09-04 23:52:36  [ pool-1-thread-8:5948 ] - [ DEBUG ]  i = sig.is_little_endian ? (i+1) : (i-1);
+2023-09-04 23:52:36  [ pool-1-thread-8:5949 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i-1 : i+1;
+
+2023-09-04 23:52:36  [ pool-1-thread-2:6058 ] - [ DEBUG ]  std::regex bo_regexp("^BO_ (\\w+) (\\w+) *: (\\w+) (\\w+)");
+2023-09-04 23:52:36  [ pool-1-thread-2:6058 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：      if (sig.calc_checksum != nullptr && sig.calc_checksum(address, sig, dat) != tmp) {
+        checksum_failed = true;
+      }
+
+2023-09-04 23:52:36  [ pool-1-thread-4:6236 ] - [ DEBUG ]  int shift = ((int)(sig.lsb / 8) == i) ? (sig.lsb % 8) : 0;
+2023-09-04 23:52:36  [ pool-1-thread-4:6237 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    vals[i] = tmp * sig.factor + sig.offset;
+
+2023-09-04 23:52:36  [ pool-1-thread-10:6258 ] - [ DEBUG ]  std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+2023-09-04 23:52:36  [ pool-1-thread-10:6260 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：        if (sig.name == sigop.name && sig.type == SignalType::DEFAULT) {
+          state.parse_sigs.push_back(sig);
+          state.vals.push_back(0);
+          state.all_vals.push_back({});
+          break;
+        }
+
+2023-09-04 23:55:08  [ pool-1-thread-1:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 7.4: A string literal shall not be assigned to an object unless the object's type is "pointer to const-qualified char".
+The Code snippets：    dbc_file_path = get_dbc_root_path() + "/" + dbc_name + ".dbc";
+2023-09-04 23:55:08  [ pool-1-thread-5:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:55:08  [ pool-1-thread-4:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:55:08  [ pool-1-thread-7:1 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+
+2023-09-04 23:55:08  [ pool-1-thread-10:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sgm_regexp(R"(^SG_ (\w+) (\w+) *: (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:55:08  [ pool-1-thread-2:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:55:08  [ pool-1-thread-8:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_split_regexp{R"([\"]+)"};  // split on "
+2023-09-04 23:55:08  [ pool-1-thread-3:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.10: An inline function shall be declared with the static storage class.
+The Code snippets：inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:55:08  [ pool-1-thread-9:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+
+2023-09-04 23:55:08  [ pool-1-thread-6:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+
+2023-09-04 23:55:13  [ pool-1-thread-4:5143 ] - [ DEBUG ]  static inline bool endswith(const std::string& str, const char* suffix) {
+2023-09-04 23:55:13  [ pool-1-thread-4:5159 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex sg_regexp(R"(^SG_ (\w+) : (\d+)\|(\d+)@(\d+)([\+|\-]) \(([0-9.+\-eE]+),([0-9.+\-eE]+)\) \[([0-9.+\-eE]+)\|([0-9.+\-eE]+)\] \"(.*)\" (.*))");
+
+2023-09-04 23:55:13  [ pool-1-thread-8:5330 ] - [ DEBUG ]  extern std::regex val_split_regexp;
+2023-09-04 23:55:13  [ pool-1-thread-8:5331 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：std::regex bo_regexp(R"(^BO_ (\w+) (\w+) *: (\w+) (\w+))");
+
+2023-09-04 23:55:13  [ pool-1-thread-2:5349 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, const char* prefix) {
+2023-09-04 23:55:13  [ pool-1-thread-2:5350 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+    int size = std::min(bits, 8 - shift);
+
+    msg[i] &= ~(((1ULL << size) - 1) << shift);
+    msg[i] |= (ival & ((1ULL << size) - 1)) << shift;
+
+    bits -= size;
+    ival >>= size;
+    i = sig.is_little_endian ? i+1 : i-1;
+  }
+
+2023-09-04 23:55:13  [ pool-1-thread-5:5494 ] - [ DEBUG ]  static inline std::string& trim(std::string& s, const char* t = " \t\n\r\f\v") {
+2023-09-04 23:55:13  [ pool-1-thread-5:5495 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int shift = (int)(sig.lsb / 8) == i ? sig.lsb % 8 : 0;
+
+2023-09-04 23:55:13  [ pool-1-thread-1:5508 ] - [ DEBUG ]  const char* dbc_file_path = (get_dbc_root_path() + "/" + dbc_name + ".dbc").c_str();
+2023-09-04 23:55:13  [ pool-1-thread-1:5511 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    i = sig.is_little_endian ? i+1 : i-1;
+
+2023-09-04 23:55:13  [ pool-1-thread-9:5731 ] - [ DEBUG ]  std::regex val_regexp(R"(VAL_ (\w+) (\w+) (\s*[-+]?[0-9]+\s+\".+?\"[^;]*))");
+2023-09-04 23:55:13  [ pool-1-thread-9:5731 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  if (!counter_set && sig_it_counter != signal_lookup.end()) {
+    const auto& sig = sig_it_counter->second;
+
+    if (counters.find(address) == counters.end()) {
+      counters[address] = 0;
+    }
+    set_value(ret, sig, counters[address]);
+    counters[address] = (counters[address] + 1) % (1 << sig.size);
+  }
+
+2023-09-04 23:55:13  [ pool-1-thread-7:5851 ] - [ DEBUG ]  extern uint16_t crc16_lut_xmodem[256]; // CRC16 poly 0x1021, aka XMODEM
+2023-09-04 23:55:13  [ pool-1-thread-7:5851 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：  while (i >= 0 && i < msg.size() && bits > 0) {
+    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+    int size = msb - lsb + 1;
+
+    uint64_t d = (msg[i] >> (lsb - (i*8))) & ((1ULL << size) - 1);
+    ret |= d << (bits - size);
+
+    bits -= size;
+    i = sig.is_little_endian ? i-1 : i+1;
+  }
+
+2023-09-04 23:55:14  [ pool-1-thread-6:6059 ] - [ DEBUG ]  extern uint8_t crc8_lut_8h2f[256]; // CRC8 poly 0x2F, aka 8H2F/AUTOSAR
+2023-09-04 23:55:14  [ pool-1-thread-6:6060 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int lsb = (int)(sig.lsb / 8) == i ? sig.lsb : i*8;
+
+2023-09-04 23:55:14  [ pool-1-thread-3:6873 ] - [ DEBUG ]  static inline bool startswith(const std::string& str, std::initializer_list<const char*> prefix_list) {
+2023-09-04 23:55:14  [ pool-1-thread-3:6874 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Advisory 12.1: The precedence of operators within expressions should be made explicit.
+The Code snippets：    int msb = (int)(sig.msb / 8) == i ? sig.msb : (i+1)*8 - 1;
+

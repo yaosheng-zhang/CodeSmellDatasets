@@ -1,0 +1,87 @@
+2023-08-10 09:45:02  [ main:0 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：void usb_lp_can_rx0_isr(void)
+{
+  uint32_t id;
+  uint8_t fmi;
+  bool ext, rtr;
+  uint8_t length, data[8];
+  uint16_t timestamp;
+
+  can_receive(CAN1,
+              0,     /* FIFO: 0 */
+              false, /* Release */
+              &id,
+              &ext,
+              &rtr,
+              &fmi,
+              &length,
+              data,
+              &timestamp);
+
+  _can_run_rx_callback(id, data, length);
+
+  can_fifo_release(CAN1, 0);
+}
+
+2023-08-10 09:45:12  [ main:10221 ] - [ DEBUG ]  void usb_lp_can_rx0_isr(void)
+{
+  uint32_t id;
+  uint8_t fmi;
+  bool ext, rtr;
+  uint8_t length, data[8];
+  uint16_t timestamp;
+
+  can_receive(CAN1,
+              0,     /* FIFO: 0 */
+              false, /* Release */
+              &id,
+              &ext,
+              &rtr,
+              &fmi,
+              &length,
+              data,
+              &timestamp);
+
+  _can_run_rx_callback(id, data, length);
+
+  can_fifo_release(CAN1, 0);
+}
+
+extern void can_receive(CAN_TypeDef *CANx,
+                        uint8_t FIFONumber,
+                        FunctionalState Release,
+                        uint32_t *pStdId,
+                        bool *pExtId,
+                        bool *pRTR,
+                        uint8_t *pFMI,
+                        uint8_t *pDLC,
+                        uint8_t *pData,
+                        uint16_t *pTimestamp);
+
+extern void _can_run_rx_callback(uint32_t id, uint8_t *data, uint8_t length);
+
+extern void can_fifo_release(CAN_TypeDef *CANx, uint8_t FIFONumber);
+2023-08-10 09:45:12  [ main:10244 ] - [ DEBUG ]  I want you to act as a code reviewer for C/C++.I will provide a rule from Misra c/c++ and a code snippet that violates that rule,You just need to return the refactoring code as plain text and without any explanation.Please help me refactor the snippet on the given code according to the Misra rule : Rule Required 8.4: A compatible declaration shall be visible when an object or function with external linkage is defined.
+The Code snippets：void can1_rx0_isr(void){
+  uint32_t id;
+  uint8_t fmi;
+  bool ext, rtr;
+  uint8_t length, data[8];
+  uint16_t timestamp;
+
+  can_receive(CAN1,
+              0,     /* FIFO: 0 */
+              false, /* Release */
+              &id,
+              &ext,
+              &rtr,
+              &fmi,
+              &length,
+              data,
+              &timestamp);
+
+  _can_run_rx_callback(id, data, length);
+
+  can_fifo_release(CAN1, 0);
+}
+
